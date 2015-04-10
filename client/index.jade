@@ -8,7 +8,12 @@ html
     link(rel='shortcut icon', href='/favicon.ico')
   body
     h1 Ajax-fun
+    
+    input#number(type='number', autofocus=true, value='5')
+    button#getRandom Get Quantum Numbers
+    #sum
+    #roots
 
-    script(src='/vendor/jquery/dist/jquery.min.js')    
+    script(src='/vendor/jquery/dist/jquery.min.js')
     script(src='/vendor/lodash/lodash.min.js')
     script(src=isProd ? '/index.min.js' : '/index.js')
